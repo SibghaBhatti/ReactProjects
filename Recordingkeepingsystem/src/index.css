@@ -1,0 +1,53 @@
+.head {
+  background-color: brown;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+.form {
+  text-align: center;
+  display: flex;
+  gap: 20px;
+}
+.allrecord {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+table {
+  margin-top: 40px;
+  border: 8px solid brown;
+  width: 100%;
+}
+
+th,
+td {
+  border-width: 0px 0px 2px 0px;
+  border-style: solid;
+  border-color: black;
+  padding: 10px;
+  font-size: 15px;
+  text-align: center;
+}
+.deldatabtn {
+  padding: 10px 30px;
+  font-weight: bold;
+}
+.deldatabtn:hover {
+  transform: scale(1.2); /*to move btn*/
+}
+
+body {
+  background-color: antiquewhite;
+}
+.adddatabtn {
+  font-size: large;
+}
+.adddatabtn:hover {
+  transform: scale(1.2); /*to move btn*/
+}
+button {
+  border-style: none;
+  background-color: green;
+  color: white;
+}
